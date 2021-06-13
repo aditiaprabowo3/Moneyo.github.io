@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar  {
+    padding: 15px 0 !important;
+}
+.navbar ul li a {
+    color: #fff !important;
+    font-weight: 500;
+}
+.navbar .dropdown-menu li a{
+    color: #000 !important;
+}
+.navbar .dropdown-menu li a:hover {
+    background-color: rgb(0, 179, 255);
+    color: #fff !important;
+}
+.navbar.putih {
+    background-color: #fff !important;
+}
+.navbar.putih .bt a {
+    color: #fff !important;
+}
+.navbar.putih  a{
+    color: #000 !important;
+}
+.navbar.putih .navbar-brand a{
+    color: rgb(0, 179, 255) !important;
+}
+.section-feature h2::after {
+    content: '';
+    border-bottom: 4px solid rgb(0, 179, 255);
+    padding-bottom: 9px;
+    display: block;
+}
+.section-feature .card-feature i {
+    color: rgb(0, 179, 255);
+}
+.section-feature .card-feature {
+    box-shadow: 0 0 2px rgba(0,0,0,0.125) !important;
+}
+.section-feature .card-feature:hover {
+    box-shadow: 0 0 30px rgb(0, 179, 255) !important;
+    transition: all.5s;
+    background-color: rgb(0, 179, 255);
+    color: #fff !important;
+}
+.section-feature .card-feature:hover i {
+    color: #fff !important;
+}
+.card-testimonial {
+    margin: 20px 0;
+}
+.card-feature {
+    margin: 20px 0;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    opacity: 0.8;
+}
+footer ul li {
+    list-style: none;
+    padding-bottom: 17px;
+    margin-left: -30px;
+}
+footer h5 {
+    font-weight: 600;
+    padding-bottom: 17px;
+}
+
+/* breakpoint */
+/* hp */
+@media (min-width: 300px) {
+    .section-banner .text-content h1 {
+        font-size: 30px;
+        font-weight: 600 !important;
+    }
+    .section-banner .text-content p {
+        font-size: 11px;
+    }
+    .section-banner .text-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .navbar .bt-2 {
+        margin-right: 7px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .navbar .bt-2 {
+        margin-right: 0px !important;
+    }
+    .section-banner .btn {
+        margin-bottom: 10px;
+    }
+    .section-sponsor img {
+        width: 40%;
+        height: 40%;
+        margin: 15px 10px;
+        opacity: 0.7;
+    }
+    .section-sponsor  {
+        margin-top: 100px !important;
+    }
+    .section-about .text-content {
+        margin-top: 60px;
+        text-align: center;
+    } 
+    .section-about .text-content h1 {
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        font-size: 11px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt-2 {
+        margin-bottom: 10px;
+    }
+}
+/* hp */
+@media (min-width: 400px) {
+    .section-banner .text-content h1 {
+        font-size: 38px;
+        font-weight: 600 !important;
+    }
+    .section-banner .text-content p {
+        font-size: 14px;
+    }
+    .section-banner .text-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .navbar .bt-2 {
+        margin-right: 7px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    .navbar .bt-2 {
+        margin-right: 0px !important;
+    }
+    .section-banner .btn {
+        margin-bottom: 10px;
+    }
+    .section-sponsor img {
+        width: 37%;
+        height: 37%;
+        margin: 15px 10px;
+        opacity: 0.7;
+    }
+    .section-sponsor  {
+        margin-top: 240px !important;
+    }
+    .section-about .text-content {
+        margin-top: 60px;
+        text-align: center;
+    } 
+    .section-about .text-content h1 {
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        font-size: 14px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt-2 {
+        margin-bottom: 10px;
+    }
+}
+/* tablet */
+@media (min-width: 777px) {
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600 !important;
+    }
+    .section-banner .text-content p {
+        font-size: 18px;
+    }
+    .section-banner .text-content {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .navbar .bt-2 {
+        margin-right: 0px;
+    }
+    .section-banner .img-content img{
+        width: 115%;
+        height: 115%;
+        margin-top: -60px;
+        margin-left: -60px;
+    }
+    .navbar .bt-2 {
+        margin-right: 20px !important;
+    }
+    .section-banner .btn {
+        margin-bottom: 10px;
+    }
+    .section-sponsor img {
+        width: 27%;
+        height: 27%;
+        margin: 15px 10px;
+        opacity: 0.7;
+    }
+    .section-sponsor  {
+        margin-top: 480px !important;
+    }
+    .section-about .text-content {
+        margin-top: 60px;
+        text-align: center;
+    } 
+    .section-about .text-content h1 {
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    }
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .navbar ul li {
+        padding: 0px;
+    }
+    .navbar .bt-2 {
+        margin-bottom: 10px;
+    }
+}
+/* desktop */
+@media (min-width: 999px) {
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600 !important;
+    }
+    .section-banner .text-content p {
+        font-size: 18px;
+    }
+    .section-banner .text-content {
+        margin-top: 30px;
+        text-align: left;
+    }
+    .navbar .bt-2 {
+        margin-right: 7px;
+    }
+    .section-banner .img-content img{
+        width: 115%;
+        height: 115%;
+        margin-top: -60px;
+        margin-left: -60px;
+    }
+    .navbar .bt-2 {
+        margin-right: 20px !important;
+    }
+    .section-banner .btn {
+        margin-bottom: 10px;
+    }
+    .section-sponsor img {
+        width: 17%;
+        height: 17%;
+        margin: 15px 10px;
+        opacity: 0.7;
+    }
+    .section-sponsor  {
+        margin-top: 150px;
+    }
+    .section-about .text-content {
+        margin-top: 60px;
+        text-align: left;
+    } 
+    .section-about .text-content h1 {
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    }   
+    .section-about .img-content img {
+        width: 100%;
+        height: 100%;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .navbar .bt-2 {
+        margin-bottom: 0px;
+    }
+}
+
+/* pc */
+@media (min-width: 1200px) {
+    .section-banner .text-content h1 {
+        font-size: 45px;
+        font-weight: 600 !important;
+    }
+    .section-banner .text-content {
+        margin-top: 0px;
+        text-align: left;
+    }
+    .section-banner .text-content p {
+        font-size: 18px;
+    }
+    .navbar .bt-2 {
+        margin-right: 7px;
+    }
+    .section-banner .img-content img{
+        width: 110%;
+        height: 110%;
+        margin-top: -100px;
+        margin-left: -100px;
+    }
+    .navbar .bt-2 {
+        margin-right: 20px !important;
+    }
+    .section-banner .btn {
+        margin-bottom: 10px;
+    }
+    .section-sponsor img {
+        width: 16%;
+        height: 16%;
+        margin: 20px;
+        opacity: 0.7;
+    }
+    .section-sponsor  {
+        margin-top: 50px !important;
+    }
+    .section-about .img-content img {
+        width: 80%;
+        height: 80%;
+    }
+    .section-about .text-content {
+        margin-top: 60px;
+        text-align: left;
+    } 
+    .section-about .text-content h1 {
+        font-weight: 700;
+    }
+    .section-about .text-content p {
+        font-size: 17px;
+    }
+    .navbar ul li {
+        padding: 0 15px;
+    }
+    .navbar .bt-2 {
+        margin-bottom: 0px;
+    }
+}
